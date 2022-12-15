@@ -1,0 +1,983 @@
+@import url('https://webfontworld.github.io/gmarket/GmarketSans.css');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100;200;300;400;500;600&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.mainpage{
+    width: 100%;
+    height: 1080px;
+    background-image: url(img/bg_main.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/** 네비게이션 적용 **/
+
+.nav{
+    width: 100%;
+    height: 130px;
+    background-color: rgba(255, 255, 255, 0.622);
+}
+
+.menubar{
+    width: 1100px;
+    display: flex;
+    margin: 0 auto;
+}
+
+.img-menu{
+    margin: auto 0;
+}
+
+.text{
+    width: 788px;
+    height: 130px;
+    display:flex;
+    justify-content: space-between;
+    margin-left: auto;
+}
+
+.text-menu{
+    text-align: center;
+    margin:auto 0;
+}
+
+.text-menu > a{
+    color:#6892C2;
+    font-family: 'GmarketSans';
+    font-weight: 700;
+    font-size: 30px;
+    letter-spacing: -0.03em;
+    
+}
+
+
+.text-menu > a:hover{
+    color: #436388;
+    font-weight: 700;
+    letter-spacing: -0.03em;
+}
+
+/** 콘텐츠 적용 **/
+
+.maincontent{
+    width: 100%;
+    height: 600px;
+    margin: auto 0;
+}
+
+.main-title{
+    font-size: 70pt;
+    text-align: center;
+    margin-top: 350px; 
+    color: white;
+    font-family: 'GmarketSans';
+}
+
+.contentbg{
+    width: 100%;
+    height: 3789px;
+    background-image: url(img/bg_con1.png);
+    padding-top: 157px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.about{
+    color:#6892C2;
+    font-family: 'GmarketSans';
+    font-weight: 700;
+    font-size: 60px;
+    text-align: center;
+}
+
+.mebox{
+    width: 100%;
+    
+}
+
+.me{
+    display: flex;
+}
+
+.img-about{
+    margin-top: 126px;
+    margin-left: 529px;
+}
+
+.info{
+    color:#6892C2;
+    font-family: 'GmarketSans';
+    font-weight: 700;
+    font-size: 28px;
+    text-align: left;
+    margin-top: 155px;
+    margin-left:180px;
+    letter-spacing: -0.03em;
+    line-height: 60px;
+}
+
+.con{ 
+    color:#6892C2;
+    font-family: 'GmarketSans';
+    font-weight: 500;
+    font-size: 28px;
+    text-align: left;
+    letter-spacing: -0.03em;
+    line-height: 60px;
+}
+
+.con01 {
+    margin-top: 155px;
+    margin-left:90px;
+    
+}
+
+.edu{
+    display: flex;
+}
+
+.education {
+    color:#6892C2;
+    font-family: 'GmarketSans';
+    font-weight: 700;
+    font-size: 28px;
+    text-align: center;
+    margin-top: 290px;
+    margin-left: 620px;
+}
+
+.con02 {
+    
+    margin-left:90px;
+    margin-top: 278px;
+    line-height: 40px;
+    
+}
+
+.awd{
+    display: flex;
+}
+
+.award{
+    color:#6892C2;
+    font-family: 'GmarketSans';
+    font-weight: 700;
+    font-size: 28px;
+    text-align: center;
+    margin-top: 140px;
+    margin-left: 620px;
+}
+
+.con03{
+    margin-top: 124px;
+    margin-left: 160px;
+    line-height: 40px;
+}
+
+.lic{
+    display: flex;
+}
+
+.license {
+    color:#6892C2;
+    font-family: 'GmarketSans';
+    font-weight: 700;
+    font-size: 28px;
+    text-align: center;
+    margin-top: 140px;
+    margin-left: 620px;
+}
+
+.con04{
+    margin-top: 125px;
+    margin-left: 140px;
+    line-height: 40px;
+}
+
+.skl{
+    color:#6892C2;
+    font-family: 'GmarketSans';
+    font-weight: 700;
+    font-size: 35px;
+    text-align: center;
+    margin-top: 300px;
+    margin-bottom: 100px;
+}
+
+.skill_img{
+    margin: auto; display: block;
+}
+
+.preview {
+    width: 100%;
+    
+}
+
+.pre{
+    color:#6892C2;
+    font-family: 'GmarketSans';
+    font-weight: 700;
+    font-size: 35px;
+    text-align: center;
+    margin-top: 300px;
+    margin-bottom: 110px;
+}
+
+.group1{
+    width: 1200px;
+    height: 400px;
+    display: flex;
+    position: relative;
+    margin: 0 auto;
+}
+
+.group2{
+    text-align: center;
+    
+}
+.box1 {
+    margin: 0 auto;
+    position: relative;
+    width: 500px;
+    height: 300px;
+    
+}
+
+.p_iden{
+    margin-right: 40px;
+    display: block;
+    position: absolute;
+}
+.p_a {
+    display: block;
+    width: 500px;
+    height: 300px;
+    text-align: center;
+    margin: 0 auto;
+    opacity: 0;
+}
+
+.p_a:hover {
+    opacity: 1;
+}
+
+.p_bg{
+    width: 500px;
+    height: 300px;
+    background: rgba(104, 146, 194, 0.205);
+    position: absolute;
+    border-radius: 20px;
+    
+ }
+ .box1 h2 {
+    position: absolute; 
+    left: 50%;
+    top: 50%;
+    transform: translate(-50% , -50%);
+    z-index: 1000;
+    color: #fff;
+    font-size: 35px;
+    font-family: 'GmarketSans';
+    font-weight: 700;
+
+}
+ 
+ 
+
+
+
+/** 푸터 **/
+.footer{
+    width: 100%;
+    height: 130px;
+    background-color: #A6BED8;
+}
+
+.f-text{
+    color: #fff;
+    font-family: 'Noto Sans', sans-serif;
+    text-align: center;
+    padding-top: 50px;
+    font-size: 24px;
+}
+
+
+/** 아이덴티티 **/
+
+.subpage{
+    width: 100%;
+    height: 630px;
+    background-image: url(img/sub01_bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.sub-title{
+    color:#ffffff;
+    font-family: 'GmarketSans';
+    font-weight: 500;
+    font-size: 70px;
+    text-align: center;
+    padding-top: 204px;
+}
+
+.sajo{
+    margin: 0 auto;
+}
+
+.sajo-t{
+    margin-top: 382px;
+    text-align: center;
+}
+
+.s-con{
+    color: #6885C3;
+    font-size: 22px;
+    font-family: 'GmarketSans';
+    font-weight: 500;
+    text-align: center;
+    padding-top: 33px;
+    line-height: 30px;
+}
+
+.s-img01{
+    padding-top: 151px;
+    text-align: center;
+}
+
+.slogo-info{
+    color: #6885C3;
+    font-size: 24px;
+    font-family: 'GmarketSans';
+    font-weight: 500;
+    text-align: center;
+    padding-top: 51px;
+    line-height: 30px;
+}
+
+.logo-info2{
+    display: flex;
+    padding-top: 163px;
+}
+
+.s-color{
+    color: #6885C3;
+    font-size: 24px;
+    font-family: 'GmarketSans';
+    font-weight: 510;
+    margin-left: 637px;
+    padding-right: 275px;
+}
+.s-grid{
+    color: #6885C3;
+    font-size: 24px;
+    font-family: 'GmarketSans';
+    font-weight: 510;
+}
+
+.sj-color{
+    display: flex;
+    margin-left: 643px;
+    padding-top: 14px;
+}
+
+.scode{
+    color: #6885C3;
+    font-size: 22px;
+    font-family: 'GmarketSans';
+    font-weight: 500;
+    line-height: 55px;
+    padding-left: 12px;
+}
+
+.s-img02{
+    padding-top: 14px;
+    text-align: center;
+}
+
+.sajo-m{
+    width: 100%;
+    height: 865px;
+    padding-top: 203px;
+    text-align: center;
+}
+
+.fri-t{
+    text-align: center;
+    padding-top: 179px;
+}
+
+.f-con{
+color: #66A267;
+    font-size: 22px;
+    font-family: 'GmarketSans';
+    font-weight: 500;
+    text-align: center;
+    padding-top: 19px;
+    line-height: 30px;
+}
+
+.f-img01{
+    text-align: center;
+    padding-top: 150px;
+}
+
+.flogo-info{
+    color: #66A267;
+    font-size: 24px;
+    font-family: 'GmarketSans';
+    font-weight: 500;
+    text-align: center;
+    padding-top: 49px;
+    line-height: 30px;
+}
+.flogo-info2{
+    display: flex;
+    padding-top: 163px;
+}
+
+.f-color{
+    color: #66A267;
+    font-size: 24px;
+    font-family: 'GmarketSans';
+    font-weight: 510;
+    margin-left: 637px;
+    padding-right: 275px;
+}
+.f-grid{
+    color: #66A267;
+    font-size: 24px;
+    font-family: 'GmarketSans';
+    font-weight: 510;
+}
+
+.f-img02{
+    text-align: center;
+    padding-top: 15px;
+}
+
+.fri-m{
+    width: 100%;
+    height: 995px;
+    text-align: center;
+    padding-top: 175px;
+}
+
+/** 패키지 **/
+
+#wrap{
+    width: 1920px; margin: 0 auto;
+}
+
+.p_subpage{
+    width: 100%;
+    height: 630px;
+    background-image: url(img/sub02_bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.lush-img01{
+    width: 100%;
+    height: 800px;
+    margin-top: 215px;
+    background-image: url(img/lush_img01.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+    
+}
+
+.lush-title{
+    padding-left: 19%;
+    padding-bottom: 43px;
+    padding-top: 100px;
+    
+}
+
+.lush-info{
+    color: #7E6361;
+    font-size: 24px;
+    font-family: 'GmarketSans';
+    font-weight: 500;
+    line-height: 40px;
+    padding-left: 19%; 
+}
+
+.lush-img02{
+    width: 100%;
+    height: 752px;
+    background-image: url(img/lush_img02.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.lush-con{
+    display: flex;
+}
+
+.lush-box{
+    padding-left: 270px;
+    padding-top: 30px;
+    padding-right: 153px;
+}
+
+.box{
+    color: #7E6361;
+    font-size: 26px;
+    font-family: 'GmarketSans';
+    line-height: 40px;
+    font-weight: 500;
+    padding-top: 355px;
+}
+
+.lush-img03{
+    background-image: url(img/lush_img03.png);
+    width: 100%;
+    height: 865px;
+    text-align: center;
+    
+}
+
+.pl{
+    width: 100%;
+    height: 1451px;
+    background-image: url(img/pl_img.png);
+}
+
+.pl-title{
+    padding-top: 78px;
+    text-align: center;
+}
+
+.person{
+    text-align: center;
+    padding-top: 37px;
+}
+
+.pl-info{
+    color: #BB9F9B;
+    font-size: 26px;
+    font-family: 'GmarketSans';
+    font-weight: 500;
+    text-align: center;
+    padding-top: 11px;
+    line-height: 36px;
+}
+
+.betrue{
+    width: 100%;
+    height: 1375px;
+    background-image: url(img/betrue_img01.png);
+}
+
+.b-title{
+    padding-top: 65px;
+    padding-left: 360px;
+}
+
+.be-info{
+    color: #7E523B;
+    font-size: 26px;
+    font-family: 'GmarketSans';
+    font-weight: 500;
+    line-height: 33px;
+    padding-top: 44px;
+    padding-left: 360px;
+}
+
+.logo-info3{
+    display: flex;
+    padding-top: 72px;
+    padding-left: 360px;
+}
+
+.b-logo{
+    color: #7E523B;
+    font-size: 24px;
+    font-family: 'GmarketSans';
+    font-weight: 510;
+    margin-right: 205px;
+}
+
+.b-color{
+    color: #7E523B;
+    font-size: 24px;
+    font-family: 'GmarketSans';
+    font-weight: 510;
+}
+
+.logocolor{
+    padding-left: 360px;
+    margin-top: 20px;
+}
+
+/** 웹디자인 **/
+
+.newspaper_web{
+    width: 1920px;
+    height: 451px;
+    
+    margin: 0 auto;
+    display: flex;
+    position: relative;
+    
+}
+.n-img01_web{
+    width: 527px;
+    height: 451px; 
+    
+    position: absolute;
+    left: 360px;
+    top: 121px;
+}
+
+.n-right_web{
+    width: 555.7px;
+    height: 266px;
+    
+    position: absolute; 
+    top: 212px;
+    right: 451.3px;
+}
+
+.n-title_web{
+    width: 453.94px;
+    height: 75px;
+    
+    margin-bottom: 58px;
+}
+
+.n-box_web{
+    width: 555.7px;
+    height: 133px;
+    
+    display: flex;
+    
+    position: relative;
+}
+
+.n-p{
+    font-family: 'GmarketSans';
+    font-size: 26px;
+    line-height: 33px;
+    letter-spacing: -0.6px;
+    font-weight: 500;
+    color: #7E523B;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.n-color{
+    width: 143.7px;
+    height: 130px;
+    
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+/** 웹디자인 **/
+
+.w_subpage{
+    width: 100%;
+    height: 630px;
+    background-image: url(img/sub03_bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.wsub-title{
+    color:#ffffff;
+    font-family: 'GmarketSans';
+    font-weight: 500;
+    font-size: 70px;
+    text-align: center;
+    padding-top: 165px;
+}
+
+.paris_web{
+    width: 100%;
+    height: 1490px;
+    background-color: #FFFBF2;
+    margin: 0 auto;
+}
+
+.pbtitle_web{
+    padding-top: 78px;
+    
+}
+.pbtitle_web img{
+    display: block;
+    margin: 0 auto;
+}
+
+.pb-info_web{
+    padding-top: 44px;
+}
+
+.pb-info_web p{
+    color: #665A4A;
+    font-size: 26px;
+    font-family: 'GmarketSans';
+    font-weight: 500;
+    line-height: 40px;
+    text-align: center;
+    
+}
+.pb-site_web{
+    text-align: right;
+    padding-right: 600px;
+    padding-top: 58px;
+}
+
+.pb-site_web{
+    color: #665A4A;
+    font-size: 16px;
+    font-family: 'GmarketSans';
+    font-weight: 500;
+    
+}
+
+.pb-img01_web{
+    text-align: center;
+    padding-top: 11px;
+}
+
+.pbsub_web{
+    text-align: center;
+    padding-top: 90px;
+}
+
+.milk{
+    width: 1920px;
+    height: 1030px;
+    background-color: #E2F2FF;
+    margin: 0 auto;
+}
+
+
+.mk-title_web{
+    padding-top: 80px;
+    
+    
+}
+.mk-title_web img{
+    display: block;
+    margin: 0 auto;
+}
+
+.mk-info_web{
+    padding-top: 44px;
+}
+
+.mk-info_web p{
+    color: #665A4A;
+    font-size: 26px;
+    font-family: 'GmarketSans';
+    font-weight: 500;
+    line-height: 40px;
+    text-align: center;
+    
+}
+.mk-site_web{
+    text-align: right;
+    padding-right: 600px;
+    padding-top: 50px;
+}
+
+.mk-site_web{
+    color: #665A4A;
+    font-size: 16px;
+    font-family: 'GmarketSans';
+    font-weight: 500;
+    
+}
+
+.mk-img01_web{
+    text-align: center;
+    padding-top: 11px;
+}
+
+.doing {
+    width: 1920px;
+    height: 1042px;
+    background: #F5F6FF;
+    display: flex;
+    margin: 0 auto;
+    right: 0;
+    position: relative;
+}
+.do-img01_web {
+    width: 623px;
+    height: 632px;
+    
+    position: absolute;
+    left: 204px;
+    top: 229px;
+}
+
+.do-right_web{
+    width: 688px;
+    height: 533.2px;
+    
+    position: absolute;
+    top: 224px;
+    right: 319px;
+}
+.do-title_web{
+    width: 655px;
+    height: 97px;
+    
+}
+.do-info_web{
+    padding-top: 44px;
+    font-family: 'GmarketSans';
+    font-size: 26px;
+    line-height: 36px;
+}
+.do-info_web p {
+    font-size: 26px;
+    line-height: 40px;
+    color: #7986C6;
+}
+.do-logo_web{
+    width: 478px;
+    height: 188.2px;
+   
+    margin-top: 93px;
+}
+
+/** 편집디자인 **/
+.e_subpage{
+    width: 100%;
+    height: 630px;
+    background-image: url(img/sub02_bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.ca_web{
+    width: 1920px;
+    height: 1522px;
+    background: #EDFEFF;
+    margin:  0 auto;
+}
+
+.ca-title_web{
+    padding-top: 72px;
+}
+
+.ca-title_web img{
+    display: block;
+    margin: 0 auto;
+    
+}
+
+.ca-p_web{
+    margin: 0 auto;
+    padding-top: 41px;
+    
+    
+}
+
+.ca-p_web p{
+    text-align: center;
+    font-size: 26px;
+    line-height: 38px;
+    color: #585858;
+    font-family: 'GmarketSans';
+}
+
+.ca-img01_web{
+    padding-top: 22px;
+}
+
+.ca-img01_web img{
+    display: block;
+    margin: 0 auto;
+}
+
+.hub_web{
+    width: 1920px;
+    height: 1186px;
+  
+    position: relative;
+}
+
+.hub-top_web{
+    display: flex;
+}
+
+.hub-img01_web{
+    position: absolute;
+    left: 313px;
+    top: 105px;
+
+}
+
+.hub-img01_web img{
+    display: block;
+}
+
+.hub-right_web{
+    position: absolute;
+    top: 272px;
+    right: 336px;
+
+}
+
+
+
+.hub-title img{
+    display: block;
+}
+
+.hub-p_web{
+    bottom: 0;
+    padding-top: 41px;
+}
+
+.hub-p_web p{
+    font-size: 26px;
+    line-height: 38px;
+    color: #585858;
+    font-family: 'GmarketSans';
+}
+
+.hub-img02_web{
+    bottom: 93px;
+    position: absolute;
+}
+
+.hub-img02_web img{
+    display: block;
+}
+
+.scroll-down{z-index: 11; position: absolute; width: 29px; height: 56px; left: 50%;
+    transform: translate(-50%, -250%);  opacity: 80%;
+    border: 0.4px solid #fff; border-radius: 30px; }
+
+.scroll-down::before, .scroll-down::after{content: ''; position: absolute;
+                   top: 20%; left: 50%; border: 0.1px solid #fff;
+                   height: 8px; width: 8px;
+                   transform: translate(-50%, -50%) rotate(45deg);
+                   border-top: transparent; border-left: transparent;
+                   animation: MoveArrow 1.4s ease-in-out infinite; }
+
+@keyframes MoveArrow{0%{opacity: 0;} 30%{opacity: 1;} 60%{opacity: 1;}
+                   100%{opacity: 0; top: 90%;} }
+
+                    
+
+
+
+            
