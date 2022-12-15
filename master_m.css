@@ -463,7 +463,7 @@ a {text-decoration: none; }
 .subpage{
     width: 393px;
     height: 580px;
-    background-image: url(img/sub01_bg.png);
+    background-image: url(img/sub01_mbg.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -653,7 +653,7 @@ color: #66A267;
 .p_subpage{
     width: 100%;
     height: 580px;
-    background-image: url(img/sub02_bg.png);
+    background-image: url(img/sub02_mbg.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -811,7 +811,7 @@ color: #66A267;
 .w_subpage{
     width: 100%;
     height: 580px;
-    background-image: url(img/sub03_bg.png);
+    background-image: url(img/sub03_mbg.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -953,7 +953,7 @@ color: #66A267;
 .ed_subpage{
     width: 100%;
     height: 580px;
-    background-image: url(img/sub04_bg.png);
+    background-image: url(img/sub04_mbg.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
